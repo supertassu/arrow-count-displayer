@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "arrowcounter",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Arrow Count Displayer",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Tassu"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://tassu.me/projects/arrow-counter/",
+    "sources": "https://github.com/supertassu/arrow-count-displayer"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/arrowcounter/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.tassu.arrowcounter.ArrowCounterMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "arrowcounter.mixins.json"
   ],
 
   "depends": {
