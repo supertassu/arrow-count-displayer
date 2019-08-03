@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "arrowcounter.mixins.json"
+    "mixins.arrowcounter.json"
   ],
 
   "depends": {
