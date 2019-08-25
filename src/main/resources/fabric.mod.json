@@ -4,19 +4,20 @@
   "version": "${version}",
 
   "name": "Arrow Count Displayer",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Literally does nothing more than displays how many arrows you have in your inventory",
   "authors": [
     "Tassu"
   ],
   "contact": {
     "homepage": "https://tassu.me/projects/arrow-counter/",
-    "sources": "https://github.com/supertassu/arrow-count-displayer"
+    "sources": "https://github.com/supertassu/arrow-count-displayer",
+    "issues": "https://github.com/supertassu/arrow-count-displayer/issues"
   },
 
   "license": "MIT",
   "icon": "assets/arrowcounter/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "me.tassu.arrowcounter.ArrowCounterMod"
@@ -27,10 +28,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.4.0",
-    "fabric": "*"
+    "fabricloader": ">=0.4.0"
   },
-  "suggests": {
-    "flamingo": "*"
+  "custom": {
+    "modmenu:clientsideOnly": true
   }
 }

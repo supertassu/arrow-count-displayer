@@ -5,10 +5,6 @@ import net.fabricmc.api.ModInitializer;
 public class ArrowCounterMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		System.out.println("Arrow Counter Mod!");
+		System.out.println("Can someone tell why do I even have this class? No?");
 	}
 }
